@@ -535,8 +535,6 @@ V: 220.50 | I: 0.00 | P: 0.00 | Gas: 1200 | Flame: 1
 ## 🚀 Quick Start Guide
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/Smart-Energy-Meter-with-Fire-Gas-Detection.git
 
 # Open Arduino IDE
 # Install required libraries:
