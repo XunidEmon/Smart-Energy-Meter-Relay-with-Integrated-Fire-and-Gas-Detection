@@ -1,34 +1,34 @@
-# ⚡ Smart Energy Meter & Relay with Fire & Gas Detection
-## 📖 Overview
+#  Smart Energy Meter & Relay with Fire & Gas Detection
+##  Overview
 
 This project combines **energy monitoring** and **safety features** into one affordable system. It helps users:
 
-- 📊 **Track real-time power consumption** (Voltage, Current, Power)
-- 🔥 **Detect gas leaks** using MQ-2 sensor
-- 🔥 **Detect fire** using flame sensor
-- 🔌 **Automatically cut off power** during emergencies via relay
-- 🔊 **Sound different alarms** for gas (continuous beep) and fire (3 short beeps)
-- 📱 **Display data** on OLED screen
-- ☁️ **Send data to Google Sheets** for remote monitoring via Wi-Fi
+-  **Track real-time power consumption** (Voltage, Current, Power)
+-  **Detect gas leaks** using MQ-2 sensor
+-  **Detect fire** using flame sensor
+-  **Automatically cut off power** during emergencies via relay
+-  **Sound different alarms** for gas (continuous beep) and fire (3 short beeps)
+-  **Display data** on OLED screen
+-  **Send data to Google Sheets** for remote monitoring via Wi-Fi
 
 ---
 
-## 🎯 Features
+##  Features
 
 | Feature | Description |
 |---------|-------------|
-| ⚡ **Energy Monitoring** | Measures voltage, current, and power consumption |
-| 🔥 **Gas Detection** | MQ-2 sensor detects LPG, methane, propane |
-| 🔥 **Fire Detection** | Flame sensor detects fire using infrared |
-| 🔌 **Auto Power Cut-off** | Relay cuts power during gas/fire emergencies |
-| 🔊 **Dual Alarm System** | Different sounds for gas (continuous) and fire (3 beeps) |
-| 📊 **OLED Display** | Shows real-time data locally |
-| ☁️ **Google Sheets Logging** | Remote monitoring via Wi-Fi |
-| 📱 **IoT Ready** | Can be extended with mobile app |
+|  **Energy Monitoring** | Measures voltage, current, and power consumption |
+|  **Gas Detection** | MQ-2 sensor detects LPG, methane, propane |
+|  **Fire Detection** | Flame sensor detects fire using infrared |
+|  **Auto Power Cut-off** | Relay cuts power during gas/fire emergencies |
+|  **Dual Alarm System** | Different sounds for gas (continuous) and fire (3 beeps) |
+|  **OLED Display** | Shows real-time data locally |
+|  **Google Sheets Logging** | Remote monitoring via Wi-Fi |
+|  **IoT Ready** | Can be extended with mobile app |
 
 ---
 
-## 🧩 Components Required
+##  Components Required
 
 | Component | Quantity | Purpose |
 |-----------|----------|---------|
@@ -46,7 +46,7 @@ This project combines **energy monitoring** and **safety features** into one aff
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 ### System Flow Diagram
 
@@ -97,9 +97,9 @@ This project combines **energy monitoring** and **safety features** into one aff
    - Flame Sensor (digital output)
 
 4. **Decision Making**:
-   - ✅ **Normal**: Relay stays ON, all LEDs normal
-   - ⚠️ **Gas Leak**: Relay OFF + Continuous fast beeping
-   - 🔥 **Fire**: Relay OFF + 3 short beeps (repeating)
+   -  **Normal**: Relay stays ON, all LEDs normal
+   -  **Gas Leak**: Relay OFF + Continuous fast beeping
+   -  **Fire**: Relay OFF + 3 short beeps (repeating)
 
 5. **Display Data** → OLED shows:
    - Voltage, Current, Power
@@ -110,7 +110,7 @@ This project combines **energy monitoring** and **safety features** into one aff
 
 ---
 
-## 🔌 Circuit Diagram
+##  Circuit Diagram
 
 ### Pin Connections
 
@@ -152,7 +152,7 @@ This project combines **energy monitoring** and **safety features** into one aff
 
 ---
 
-## 💻 Arduino Code
+##  Arduino Code
 
 ### Main Code: `smart_energy_meter.ino`
 
@@ -470,7 +470,7 @@ V: 220.50 | I: 0.00 | P: 0.00 | Gas: 1200 | Flame: 1
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 | Limitation | Description |
 |------------|-------------|
@@ -482,35 +482,35 @@ V: 220.50 | I: 0.00 | P: 0.00 | Gas: 1200 | Flame: 1
 
 ---
 
-## 🏠 Applications
+##  Applications
 
 | Place | Use |
 |-------|-----|
-| 🏠 **Homes** | Monitor power usage and stay safe |
-| 🏪 **Small Shops** | Reduce costs and ensure safety |
-| 🍳 **Kitchens** | Detect gas leaks and prevent accidents |
-| 🔬 **Labs** | Protect equipment from fire |
-| 🏫 **Schools** | Practical learning tool |
-| 👴 **Elderly Care** | Remote safety monitoring |
-| 🍽️ **Restaurants** | Safe and cost-effective management |
+|  **Homes** | Monitor power usage and stay safe |
+|  **Small Shops** | Reduce costs and ensure safety |
+|  **Kitchens** | Detect gas leaks and prevent accidents |
+|  **Labs** | Protect equipment from fire |
+|  **Schools** | Practical learning tool |
+|  **Elderly Care** | Remote safety monitoring |
+|  **Restaurants** | Safe and cost-effective management |
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 
 | Feature | Description |
 |---------|-------------|
-| 📱 **Mobile App** | Real-time data and notifications |
-| 🗣️ **Voice Assistant** | Alexa/Google Home integration |
-| 🏭 **Professional Product** | Custom PCB and certifications |
-| ☀️ **Solar Integration** | Monitor grid and solar energy |
-| 📊 **Data Analytics** | Energy usage trends and suggestions |
-| 📈 **Multi-Device** | Monitor multiple rooms or floors |
-| 🌡️ **More Sensors** | Temperature, humidity, CO, smoke |
+|  **Mobile App** | Real-time data and notifications |
+|  **Voice Assistant** | Alexa/Google Home integration |
+|  **Professional Product** | Custom PCB and certifications |
+|  **Solar Integration** | Monitor grid and solar energy |
+|  **Data Analytics** | Energy usage trends and suggestions |
+|  **Multi-Device** | Monitor multiple rooms or floors |
+|  **More Sensors** | Temperature, humidity, CO, smoke |
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 | Name | ID | Contribution |
 |------|-----|--------------|
@@ -521,7 +521,7 @@ V: 220.50 | I: 0.00 | P: 0.00 | Gas: 1200 | Flame: 1
 
 ---
 
-## 📚 References
+##  References
 
 | Reference | Description |
 |-----------|-------------|
@@ -532,7 +532,7 @@ V: 220.50 | I: 0.00 | P: 0.00 | Gas: 1200 | Flame: 1
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ```bash
 
